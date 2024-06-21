@@ -1,0 +1,17 @@
+#showcase .showcase-flex {
+  display: block;
+}
+
+#about .about-flex {
+  display: block;
+}
+#about .about-skills-flex {
+  display: block;
+}
+#about .about-timelie-flex {
+  display: block;
+}
+
+#portfolio .portfolio.flex {
+  display: block;
+}/*# sourceMappingURL=mobile.css.map */
