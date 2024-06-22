@@ -131,6 +131,7 @@ form button {
 }
 #showcase .showcase-flex .showcase-text h3 {
   font-size: 1.5rem;
+  margin-top: 2rem;
 }
 #showcase .showcase-flex img {
   width: 40%;
@@ -138,14 +139,59 @@ form button {
 
 #about .about-flex {
   display: flex;
+  gap: 50px;
+}
+#about .about-flex img {
+  width: 50%;
+}
+#about .about-flex .about-text h3 {
+  font-size: 1.5rem;
+}
+#about .about-flex .about-text h4 {
+  margin: 1rem 0;
+}
+#about .about-flex .about-text p {
+  margin-top: 2rem;
+  line-height: 30px;
 }
 
 #about-skills .about-skills-flex {
+  width: 90%;
+  margin: 0 auto;
   display: flex;
+  gap: 50px;
+}
+#about-skills .about-skills-flex .about-box {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+  margin-left: 200px;
+  margin-bottom: 3rem;
+}
+#about-skills .about-skills-flex .about-box img {
+  width: 30%;
+}
+#about-skills .about-skills-flex .about-box .about-skills-text h3 {
+  margin: 1rem 0;
 }
 
 #about-timeline .about-timeline-flex {
   display: flex;
+  gap: 50px;
+  margin-left: 100px;
+  width: 30%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+#about-timeline .about-timeline-flex h3 {
+  background: rgba(128, 128, 128, 0.636);
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 50px;
+}
+#about-timeline .about-timeline-flex .circle-text h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 #contact form .flex-box-1 {
