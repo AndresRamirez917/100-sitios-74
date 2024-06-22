@@ -119,6 +119,22 @@ form {
     }
 }
 
+//showcase
+#showcase {
+    .showcase-flex {
+        display: flex;
+    }
+}
+
+//contact
+#contact {
+    form {
+        .flex-box-1 {
+            flex: 1;
+        }
+    }
+}
+
 //footer
 #footer {
     text-align: center;

@@ -116,6 +116,14 @@ form button {
   width: 100%;
 }
 
+#showcase .showcase-flex {
+  display: flex;
+}
+
+#contact form .flex-box-1 {
+  flex: 1;
+}
+
 #footer {
   text-align: center;
   padding: 3rem 0;
