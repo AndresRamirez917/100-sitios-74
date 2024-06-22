@@ -120,6 +120,18 @@ form button {
   display: flex;
 }
 
+#about .about-flex {
+  display: flex;
+}
+
+#about-skills .about-skills-flex {
+  display: flex;
+}
+
+#about-timeline .about-timeline-flex {
+  display: flex;
+}
+
 #contact form .flex-box-1 {
   flex: 1;
 }
