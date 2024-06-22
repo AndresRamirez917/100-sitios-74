@@ -1,5 +1,34 @@
-#showcase .showcase-flex {
+#mainheader .navbar .logo {
   display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+#mainheader .navbar ul {
+  display: block;
+}
+#mainheader .navbar li {
+  text-align: center;
+  font-size: small;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+
+#showcase .showcase-flex {
+  margin-top: 0;
+  display: block;
+}
+#showcase .showcase-flex .showcase-text h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+#showcase .showcase-flex .showcase-text h3 {
+  font-size: medium;
+  margin: 2rem 0;
+}
+#showcase .showcase-flex img {
+  width: 100%;
 }
 
 #about .about-flex {
@@ -12,6 +41,6 @@
   display: block;
 }
 
-#portfolio .portfolio.flex {
+#portfolio .porfolio-flex {
   display: block;
 }/*# sourceMappingURL=mobile.css.map */
