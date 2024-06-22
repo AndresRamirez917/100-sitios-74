@@ -9,9 +9,10 @@
         }
         ul {
             display: block;
+            text-align: center;
         }
         li {
-            text-align: center;
+            
             font-size: small;
         }
         .container {
@@ -46,12 +47,36 @@
 #about {
     .about-flex {
         display: block;
+        img {
+            width: 100%;
+        }
     }
+  
+}
+
+#about-skills {
     .about-skills-flex {
         display: block;
+        text-align: center;
+        .about-box {
+            display: block;
+            margin: 0 auto;
+            padding: 1rem 0;
+        }
     }
-    .about-timelie-flex {
+}
+
+//about-timeline
+#about-timeline {
+    .about-timeline-flex {
         display: block;
+        h3 {
+            font-size: .8rem;
+            text-align: center;
+        }
+        .circle-text {
+                text-align: center;
+        }
     }
 }
 
@@ -59,5 +84,10 @@
 #portfolio {
     .porfolio-flex {
         display: block;
+        .box-1 {
+            img {
+            width: 100%;
+            }
+        }
     }
 }
